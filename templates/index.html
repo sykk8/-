@@ -1,0 +1,42 @@
+<head>
+<link rel="stylesheet" href="static/css/index.css">
+
+</head>
+
+{% extends "layout.html" %}
+
+
+{% block content %}
+<div class="index_content">
+    
+    <div class="index_pic1">
+        <img src="../static/html_pic/pic2.jpg" class="image-vw">
+        <img src="../static/html_pic/pic3.jpg" class="image-vw">
+        <img src="../static/html_pic/pic7.jpg" class="image-vw">
+    </div>
+
+    <div class="index_text">
+        <h5>洗濯マークを読み取って、<br>
+            ぴったりな洗濯方法を提案します！</h5>
+        <p>毎日の家事として必須の洗濯。でも</p>
+            <li>〇お気に入りの服を何回も洗っていると、すぐ傷んでしまう･･･</li>
+            <li>〇衣替えをしたいけど、この服はどうやって洗ったらいいのかな？ </li>       
+        <p>そんな風に思ったことはありませんか？</p>
+        <p>そんなあなたに、ぜひ使ってほしいこのアプリ。</p>
+        <p>写真をアップロードすると、AIが洗濯タグを認識して、
+            <br>最適な洗濯方法を提案してくれます！</p>
+    </div>
+
+    <div class="start">
+        <a href="/pic_upload">さっそく始める</a>
+    </div>   
+
+    <div class="index_pic2">
+        <img src="../static/html_pic/pic4.jpg" class="image-vw">
+        <img src="../static/html_pic/pic1.jpg" class="image-vw">
+        <img src="../static/html_pic/pic5.jpg" class="image-vw">
+    </div>
+
+</div>
+
+{% endblock %}

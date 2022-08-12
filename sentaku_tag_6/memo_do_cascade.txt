@@ -1,0 +1,63 @@
+# 読み込ませたxmlファイル（カスケード分類機）にグレースケールのデータ（＝gray)をセットし、検出させる
+# 検出に成功した場合は画像のサイズを出力
+S_TAG = cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
+                                    # ↑scaleFactor、minNeighborsの値を調節
+        # 第２引数：検出を行う四角形の縮小率(１より大きい数で指定する必要がある。)数が小さいほど細かく検出するので、見落としが少なくなるが、処理時間が多くなる。
+        # 第３引数：様々なスケールで検出した結果、同じエリアで重複して検出される。その時いくつ重複した場合に真とみなすかを定義するのがこの引数。小さいと少ない領域が重なっても検出するので、見落としは少ないが誤検出が多くなる。
+        # minSize=(140,210) ?
+        #物体認識（顔認識）の実行 ↓引数説明
+            #image – CV_8U 型の行列．ここに格納されている画像中から物体が検出されます
+            #objects – 矩形を要素とするベクトル．それぞれの矩形は，検出した物体を含みます
+            #scaleFactor – 各画像スケールにおける縮小量を表します
+            #minNeighbors – 物体候補となる矩形は，最低でもこの数だけの近傍矩形を含む必要があります
+            #flags – このパラメータは，新しいカスケードでは利用されません．古いカスケードに対しては，cvHaarDetectObjects 関数の場合と同じ意味を持ちます
+            #minSize – 物体が取り得る最小サイズ．これよりも小さい物体は無視されます
+    # >>> 検出領域の(左上の点のx座標, y座標, 幅, 高さ)のリスト（配列）が返される
+
+
+
+
+
+
+#赤枠で対象をマーク
+# for(x,y,w,h) in S_TAG:
+#     cv2.rectangle(img, (x,y), (x+w, y+h), (0,0,200),3)
+    # 長方形を描画する関数
+    # 引数：対象の画像データ(ndarray型 まずcv2.imread関数によって画像データを読み込む),
+        # 長方形の左上頂点の座標,右下頂点の座標,線の色(BGR),線の太さ
+#    grayじゃなくてimgでいいのか？→グレースケール変換した画像ではなく元画像を表示させたいからだと思う
+
+
+
+# if len(S_TAG) > 0:
+#     for rect in S_TAG:
+#         cv2.rectangle(img, tuple(rect[0:2]), tuple(rect[0:2]+rect[2:4]), (0, 0,255), thickness=2)
+# else:
+#     print("no detect")
+
+
+
+
+
+#別ウィンドウで画像を表示
+
+# 画像の表示：cv2.imshow(ウィンドウの名前(自由),画像)
+# cv2.imshow('image', img)
+# cv2.waitKey(0):何かしらのキーが押されるまで待ち続ける。
+# cv2.waitKey(0)
+# キーが押されたら、cv2.destroyAllWindows()でウィンドウを消す。
+
+
+
+
+
+#顔を四角で囲みWindowに表示する
+for (x,y,w,h) in S_TAG:
+    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,255),thickness=2)
+    # cv2.rectangle(gray, tuple(rect[0:2]), tuple(rect[0:2]+rect[2:4]), (0, 0,255), thickness=2)
+cv2.imshow("image",img)
+cv2.waitKey(0)
+
+#result.jpgを出力　cv2.imwrite('ファイルパス',ndarrayオブジェクト)で画像ファイルに保存
+cv2.imwrite("save_img_cascade\result.jpg", img)
+cv2.destroyAllWindows()

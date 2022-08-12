@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" href="static/css/pic_upload.css">
+</head>
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- <p>写真をアップロードする</p> -->
+
+<div class="up_txt">
+    <h5>タグの写真をアップロードしてください</h5>
+    <p>～選ぶ写真のポイント～<br>
+        洗濯マークが上手く認識されない場合、以下を参考に写真を選んでみてください！<br>
+            ・正面から撮影したものを利用してください<br>
+            ・明るいところで撮影し、マークがはっきりと写ったものを利用してください。<br>
+            ・タグのうち、マーク以外のものがなるべく写らないようにしてください。
+            (布の模様や文字を認識してしまう可能性があります)
+    </p>
+</div>
+
+    <div class="enter_btn">
+    <form action = "/pic_upload_do" method="post" enctype="multipart/form-data">
+        <p><input type="file" id = "upload_file" name = "upload_file" multiple="multiple" class="form-control"></p>
+        <p><input type="submit" value="写真をアップロード" class="form-control btn btn-primary"></p>
+    </form>
+</div>
+
+
+{% if enter_images %}
+
+
+<div class="pic_preview">
+    <h5>選択中の画像</h5>
+    {% for path in enter_images %}
+        <div>
+        <img src="images/{{ path }}" style="margin-top: 0px; vertical-align: bottom; width: 200px;">
+        </div>
+    {% endfor %}
+</div>
+
+
+    <div class="submit_btn">
+        <form action = "/cascade_view" enctype="multipart/form-data">
+            <p><input type="submit" value="送信" class="form-control btn btn-primary"></p>
+        </form>
+    </div>
+
+
+{% endif %}
+<!-- 2回目はifの中身が表示 -->
+
+<div class="re_upload">
+    <!-- <a href="/cascade_view">この写真で決定する</a> -->
+    <!-- <a href="/pic_upload">写真を選び直す</a> -->
+</div>
+{% endblock %}

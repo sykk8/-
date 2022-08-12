@@ -1,0 +1,25 @@
+.explain{
+    margin: 20px 0px 5px 0px;
+    align-items: center;
+}
+
+.explain h5 {
+    /* color: #255F7E; */
+    font-weight: bold;
+}
+
+.restart{
+    display: flex;
+    margin: 5px 0px 5px auto;
+    width: 12%;
+}
+
+.restart a {
+    color: #255F7E;
+}
+.restart a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: #255F7E;
+}
+

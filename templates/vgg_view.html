@@ -1,0 +1,35 @@
+<head>
+    <link rel="stylesheet" href="static/css/vgg_view.css">
+</head>
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+
+<!-- <p>VGGで予測した結果を出力</p> -->
+
+<img src= '{{ last_view }}' width="200" height="200">
+
+<div class="explain">
+    {% if last_mark == 'tearai' %}
+    <h5>手洗い</h5>
+    <p>洗濯機でも洗えます！「おしゃれ着洗い」「ドライ」「手洗いコース」「おうちクリーニング」などのコースを選びましょう！</p>
+    {% elif last_mark == 'kinsi' %}
+    <h5>洗濯禁止</h5>
+    <p>このマークは 洗濯機で洗うことができません！クリーニングに出しましょう </p>
+
+    {% elif last_mark == 'yowai30' or last_mark =='yowai40' %}
+    <h5>弱い洗濯</h5>
+    <p>洗濯機で洗えます。「ソフトモード」か「ドライモード」「おしゃれ着洗い」などで洗いましょう！（ドライの方がより優しい洗濯です）</p>
+    {% elif last_mark == 'nomal30' or last_mark == 'nomal40' %}
+    <h5>普通の洗濯</h5>
+    <P>洗濯機で洗えます。「普通」「標準」モードを選びましょう！</P>
+    {% endif %}
+</div>
+<div class="restart">
+    <a href="/pic_upload">もう一度やる？
+    </a>
+</div>
+{% endblock %}

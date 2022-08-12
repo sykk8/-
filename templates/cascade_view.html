@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="static/css/cascade_view.css">
+</head>
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<p>これらの画像が検出されました。<br>
+    知りたい洗濯マークを1枚選択してください。<br>
+    ※マークが1つだけ写っているものを選ぶと、より正確に判定できます！
+</p>
+
+{% if error=='1' %}
+<h5><span class="error_txt">画像を1枚選択してから、送信ボタンを押してね！</span></h5>
+{% endif %}
+
+
+<div class="result_cascade">
+    <form action="/vgg_view" method="POST">
+        <div class="result_box">
+        {% for result_img in result_imgs %}
+            <span class="result_img">
+                <label for="{{'pic_checkbox' + loop.index0|string }}">
+                    <input type="radio" name='result' value="{{ result_img }}" id= "{{'pic_checkbox' + loop.index0|string
+                }}" >
+                    <img src= "{{ result_img }}" width="100" height="100">
+                </label>
+            </span>
+        {% endfor %}
+        </div>
+        <input type="submit" value="写真を判定" class="form-control btn btn-primary">
+    </form>
+</div>
+
+
+<!-- <a href="/vgg_view">（画像を押して）この画像を判定する　各画像にこれを埋め込む？</a> -->
+</br>
+
+<div class="re_upload">
+    <a href="/pic_upload">写真を選び直す？</a>
+</div>
+
+{% endblock %}

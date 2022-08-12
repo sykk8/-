@@ -1,0 +1,40 @@
+.up_txt{
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="file"]{
+    background-color: #F0FAFF;
+    border: 1px solid #F0FAFF;
+}
+
+input[type="submit"]{
+    color: #D6F1FF;
+    background-color: #698996;
+    border:1px solid #698996;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+    color: #D6F1FF;
+    background-color: #698996;
+    border:1px solid #002c49;
+    cursor:default
+}
+
+.pic_preview{
+    margin: 40px auto;
+    padding: 0px 0px 20px 0px;
+}
+
+
+/* .re_upload a {
+    color: #255F7E;
+    border: 1px #255F7E
+}
+.re_upload a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: #255F7E;
+} */

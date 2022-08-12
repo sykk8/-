@@ -1,0 +1,233 @@
+メモ用 アナコンダに入力
+一気にやるとファイル破損の恐れあり。次のvecファイルにまとめられなければ確認
+207枚のpos画像を各50回拡張
+13500枚（利用12000枚）
+neg　1000枚
+
+opencv_createsamples.exe -img p_1.jpg -vec vec/1.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_2.jpg -vec vec/2.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_3.jpg -vec vec/3.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_4.jpg -vec vec/4.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_5.jpg -vec vec/5.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_6.jpg -vec vec/6.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_7.jpg -vec vec/7.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_8.jpg -vec vec/8.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_9.jpg -vec vec/9.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_10.jpg -vec vec/10.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_11.jpg -vec vec/11.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_12.jpg -vec vec/12.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_13.jpg -vec vec/13.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_14.jpg -vec vec/14.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_15.jpg -vec vec/15.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_16.jpg -vec vec/16.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_17.jpg -vec vec/17.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_18.jpg -vec vec/18.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_19.jpg -vec vec/19.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_20.jpg -vec vec/20.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_21.jpg -vec vec/21.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_22.jpg -vec vec/22.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_23.jpg -vec vec/23.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_24.jpg -vec vec/24.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_25.jpg -vec vec/25.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_26.jpg -vec vec/26.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_27.jpg -vec vec/27.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_28.jpg -vec vec/28.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_29.jpg -vec vec/29.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_30.jpg -vec vec/30.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_31.jpg -vec vec/31.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_32.jpg -vec vec/32.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_33.jpg -vec vec/33.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_34.jpg -vec vec/34.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_35.jpg -vec vec/35.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_36.jpg -vec vec/36.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_37.jpg -vec vec/37.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_38.jpg -vec vec/38.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_39.jpg -vec vec/39.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_40.jpg -vec vec/40.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_41.jpg -vec vec/41.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_42.jpg -vec vec/42.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_43.jpg -vec vec/43.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_44.jpg -vec vec/44.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_45.jpg -vec vec/45.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_46.jpg -vec vec/46.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_47.jpg -vec vec/47.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_48.jpg -vec vec/48.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_49.jpg -vec vec/49.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_50.jpg -vec vec/50.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_51.jpg -vec vec/51.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_52.jpg -vec vec/52.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_53.jpg -vec vec/53.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_54.jpg -vec vec/54.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_55.jpg -vec vec/55.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_56.jpg -vec vec/56.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_57.jpg -vec vec/57.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_58.jpg -vec vec/58.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_59.jpg -vec vec/59.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_60.jpg -vec vec/60.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_61.jpg -vec vec/61.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_62.jpg -vec vec/62.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_63.jpg -vec vec/63.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_64.jpg -vec vec/64.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_65.jpg -vec vec/65.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_66.jpg -vec vec/66.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_67.jpg -vec vec/67.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_68.jpg -vec vec/68.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_69.jpg -vec vec/69.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_70.jpg -vec vec/70.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_71.jpg -vec vec/71.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_72.jpg -vec vec/72.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_73.jpg -vec vec/73.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_74.jpg -vec vec/74.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_75.jpg -vec vec/75.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_76.jpg -vec vec/76.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_77.jpg -vec vec/77.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_78.jpg -vec vec/78.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_79.jpg -vec vec/79.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_80.jpg -vec vec/80.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_81.jpg -vec vec/81.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_82.jpg -vec vec/82.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_83.jpg -vec vec/83.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_84.jpg -vec vec/84.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_85.jpg -vec vec/85.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_86.jpg -vec vec/86.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_87.jpg -vec vec/87.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_88.jpg -vec vec/88.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_89.jpg -vec vec/89.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_90.jpg -vec vec/90.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_91.jpg -vec vec/91.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_92.jpg -vec vec/92.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_93.jpg -vec vec/93.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_94.jpg -vec vec/94.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_95.jpg -vec vec/95.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_96.jpg -vec vec/96.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_97.jpg -vec vec/97.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_98.jpg -vec vec/98.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_99.jpg -vec vec/99.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_100.jpg -vec vec/50.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_101.jpg -vec vec/101.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_102.jpg -vec vec/102.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_103.jpg -vec vec/103.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_104.jpg -vec vec/104.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_105.jpg -vec vec/105.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_106.jpg -vec vec/106.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_107.jpg -vec vec/107.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_108.jpg -vec vec/108.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_109.jpg -vec vec/109.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_110.jpg -vec vec/110.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_111.jpg -vec vec/111.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_112.jpg -vec vec/112.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_113.jpg -vec vec/113.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_114.jpg -vec vec/114.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_115.jpg -vec vec/115.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_116.jpg -vec vec/116.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_117.jpg -vec vec/117.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_118.jpg -vec vec/118.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_119.jpg -vec vec/119.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_120.jpg -vec vec/120.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_121.jpg -vec vec/121.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_122.jpg -vec vec/122.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_123.jpg -vec vec/123.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_124.jpg -vec vec/124.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_125.jpg -vec vec/125.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_126.jpg -vec vec/126.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_127.jpg -vec vec/127.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_128.jpg -vec vec/128.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_129.jpg -vec vec/129.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_130.jpg -vec vec/130.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_131.jpg -vec vec/131.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_132.jpg -vec vec/132.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_133.jpg -vec vec/133.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_134.jpg -vec vec/134.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_135.jpg -vec vec/135.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_136.jpg -vec vec/136.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_137.jpg -vec vec/137.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_138.jpg -vec vec/138.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_139.jpg -vec vec/139.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_140.jpg -vec vec/140.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_141.jpg -vec vec/141.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_142.jpg -vec vec/142.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_143.jpg -vec vec/143.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_144.jpg -vec vec/144.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_145.jpg -vec vec/145.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_146.jpg -vec vec/146.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_147.jpg -vec vec/147.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_148.jpg -vec vec/148.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_149.jpg -vec vec/149.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_150.jpg -vec vec/150.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_151.jpg -vec vec/151.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_152.jpg -vec vec/152.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_153.jpg -vec vec/153.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_154.jpg -vec vec/154.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_155.jpg -vec vec/155.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_156.jpg -vec vec/156.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_157.jpg -vec vec/157.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_158.jpg -vec vec/158.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_159.jpg -vec vec/159.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_160.jpg -vec vec/160.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_161.jpg -vec vec/161.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_162.jpg -vec vec/162.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_163.jpg -vec vec/163.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_164.jpg -vec vec/164.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_165.jpg -vec vec/165.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_166.jpg -vec vec/166.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_167.jpg -vec vec/167.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_168.jpg -vec vec/168.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_169.jpg -vec vec/169.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_170.jpg -vec vec/170.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_171.jpg -vec vec/171.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_172.jpg -vec vec/172.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_173.jpg -vec vec/173.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_174.jpg -vec vec/174.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_175.jpg -vec vec/175.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_176.jpg -vec vec/176.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_177.jpg -vec vec/177.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_178.jpg -vec vec/178.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_179.jpg -vec vec/179.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_180.jpg -vec vec/180.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_181.jpg -vec vec/181.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_182.jpg -vec vec/182.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_183.jpg -vec vec/183.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_184.jpg -vec vec/184.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_185.jpg -vec vec/185.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_186.jpg -vec vec/186.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_187.jpg -vec vec/187.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_188.jpg -vec vec/188.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_189.jpg -vec vec/189.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_190.jpg -vec vec/190.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_191.jpg -vec vec/191.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_192.jpg -vec vec/192.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_193.jpg -vec vec/193.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_194.jpg -vec vec/194.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_195.jpg -vec vec/195.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_196.jpg -vec vec/196.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_197.jpg -vec vec/197.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_198.jpg -vec vec/198.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_199.jpg -vec vec/199.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_200.jpg -vec vec/200.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+
+opencv_createsamples.exe -img p_201.jpg -vec vec/201.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_202.jpg -vec vec/202.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_203.jpg -vec vec/203.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_204.jpg -vec vec/204.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_205.jpg -vec vec/205.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_206.jpg -vec vec/206.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
+opencv_createsamples.exe -img p_207.jpg -vec vec/207.vec -num 50 -maxidev 40 -maxxangle 0.8 -maxyangle 0.8 -maxzangle 0.5
